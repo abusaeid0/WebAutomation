@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T17:03:30 BDT" name="WebAutomation" finished-at="2023-08-31T17:07:37 BDT" duration-ms="246902">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T17:03:30 BDT" name="Login Test" finished-at="2023-08-31T17:05:45 BDT" duration-ms="135394">
+      <class name="Automation.LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:03:30 BDT" name="setup" finished-at="2023-08-31T17:04:17 BDT" duration-ms="47239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidMobileNumber()[pri:1, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:04:18 BDT" name="ValidMobileNumber" finished-at="2023-08-31T17:04:31 BDT" duration-ms="12764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMobileNumber -->
+        <test-method signature="WrongMobileNumber()[pri:2, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:04:33 BDT" name="WrongMobileNumber" finished-at="2023-08-31T17:04:43 BDT" duration-ms="10614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongMobileNumber -->
+        <test-method signature="InvalidMobileNumber()[pri:3, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:04:43 BDT" name="InvalidMobileNumber" finished-at="2023-08-31T17:04:54 BDT" duration-ms="10367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMobileNumber -->
+        <test-method signature="BlankMobileNumber()[pri:4, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:04:54 BDT" name="BlankMobileNumber" finished-at="2023-08-31T17:05:11 BDT" duration-ms="17750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankMobileNumber -->
+        <test-method signature="ValidPinNumber()[pri:5, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:05:11 BDT" name="ValidPinNumber" finished-at="2023-08-31T17:05:33 BDT" duration-ms="21893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidPinNumber -->
+        <test-method signature="InvalidPinNumber()[pri:6, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:05:33 BDT" name="InvalidPinNumber" finished-at="2023-08-31T17:05:44 BDT" duration-ms="10575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPinNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Automation.LoginPage@14fc5f04]" started-at="2023-08-31T17:05:44 BDT" name="teardown" finished-at="2023-08-31T17:05:45 BDT" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.LoginPage -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-08-31T17:05:46 BDT" name="CRUD Test" finished-at="2023-08-31T17:07:37 BDT" duration-ms="111163">
+      <class name="Automation.ExpensesCRUD">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Automation.ExpensesCRUD@d23e042]" started-at="2023-08-31T17:05:46 BDT" name="setup" finished-at="2023-08-31T17:06:28 BDT" duration-ms="42564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateBill()[pri:1, instance:Automation.ExpensesCRUD@d23e042]" started-at="2023-08-31T17:06:28 BDT" name="CreateBill" finished-at="2023-08-31T17:06:42 BDT" duration-ms="13618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBill -->
+        <test-method signature="ReadBill()[pri:2, instance:Automation.ExpensesCRUD@d23e042]" started-at="2023-08-31T17:06:42 BDT" name="ReadBill" finished-at="2023-08-31T17:06:53 BDT" duration-ms="11451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadBill -->
+        <test-method signature="UpdateBill()[pri:3, instance:Automation.ExpensesCRUD@d23e042]" started-at="2023-08-31T17:06:53 BDT" name="UpdateBill" finished-at="2023-08-31T17:07:18 BDT" duration-ms="25112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBill -->
+        <test-method signature="DeleteBill()[pri:4, instance:Automation.ExpensesCRUD@d23e042]" started-at="2023-08-31T17:07:18 BDT" name="DeleteBill" finished-at="2023-08-31T17:07:36 BDT" duration-ms="17733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBill -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Automation.ExpensesCRUD@d23e042]" started-at="2023-08-31T17:07:36 BDT" name="teardown" finished-at="2023-08-31T17:07:37 BDT" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Automation.ExpensesCRUD -->
+    </test> <!-- CRUD Test -->
+  </suite> <!-- WebAutomation -->
+</testng-results>
